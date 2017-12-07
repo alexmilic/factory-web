@@ -1,0 +1,234 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-slide-item h2 {
+        font-size: 50px;
+    }
+    .header-top-area {
+        font-size: 13px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-top-area,
+    .header-top-area .text-right,
+    .logo,
+    .mainmenu ul,
+    .single-slide-item,
+    .factory-cta-area,
+    .factory-cta-area .text-right {
+        text-align: center;
+    }
+    .mainmenu ul li a {
+        padding: 10px 15px;
+    }
+    .mainmenu li ul {
+        top: 80px;
+    }
+    .mainmenu li:hover ul {
+        top: 48px;
+    }
+    .single-slide-item h2 {
+        font-size: 40px;
+    }
+    .single-slide-item {
+        font-size: 17px;
+    }
+    .factory-cta-area .cta-btn {
+        margin-top: 15px;
+    }
+    .who-we-are-text {
+        padding: 20px 0;
+    }
+    .padding-left-30 {
+        margin-top: 30px;
+    }
+    .footer-wid {
+        padding-bottom: 0;
+        padding-top: 50px;
+    }
+    .footer-top-area {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .header-search-bar {
+        display: none;
+    }
+    .homepage-slides .owl-nav div {
+        color: #333;
+        display: inline-block;
+        margin: 0;
+        position: relative;
+    }
+    .homepage-slides .owl-nav {
+        margin-top: 5px;
+        text-align: center;
+    }
+    .homepage-slides .owl-nav div.owl-next,
+    .homepage-slides .owl-nav div {
+        left: auto;
+        margin: 10px;
+        right: auto;
+    }
+    .factory-content-block.factory-breadcroumb .text-right {
+        text-align: left;
+    }
+    .factory-content-block {
+        padding: 50px 0;
+    }
+    .single-team-item {
+        width: 50%;
+    }
+    .single-service-item {
+        margin-bottom: 50px;
+    }
+    .service-item-bg,
+    .boxed-preview {
+        height: 130px;
+    }
+    .spacer-85 {
+        height: 35px;
+    }
+    .quote-title {
+        margin-top: 50px;
+    }
+    .comment-metadata {
+        margin-top: 20px;
+    }
+    .mainmenu li:hover>a,
+    .current_page_item {
+        background-color: rgba(244, 244, 244, 0.5);
+        text-decoration: none;
+        /* background: rgba(0,0,0,0.1); */
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .header-top-area,
+    .header-top-area .text-right,
+    .single-slide-item,
+    .factory-cta-area,
+    .factory-cta-area .text-right {
+        text-align: center;
+    }
+    .header-top-area {
+        font-size: 12px;
+    }
+    .mainmenu,
+    .header-search-bar {
+        display: none
+    }
+    .single-slide-item h2 {
+        font-size: 30px;
+    }
+    .single-slide-item {
+        font-size: 15px;
+    }
+    .factory-cta-area .cta-btn {
+        margin-top: 15px;
+    }
+    .who-we-are-text {
+        padding: 20px 0;
+    }
+    .padding-left-30 {
+        margin-top: 30px;
+    }
+    .footer-wid {
+        padding-bottom: 0;
+        padding-top: 50px;
+    }
+    .footer-top-area {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .logo {
+        text-align: left;
+    }
+    .responsive-menu-wrapper {
+        display: block;
+        margin-top: -16px;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+    }
+    .mainmenu-area {
+        position: relative;
+        z-index: 9;
+    }
+    .responsive-menu-wrapper .slicknav_menu {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        margin: 0;
+        padding: 0;
+    }
+    .slicknav_btn {
+        margin: 0;
+    }
+    .slicknav_nav {
+        background: #333 none repeat scroll 0 0;
+        border-radius: 2px;
+        width: 200px;
+    }
+    .single-slide-item {
+        height: 450px;
+    }
+    .homepage-slides .owl-nav div {
+        color: #333;
+        display: inline-block;
+        margin: 0;
+        position: relative;
+    }
+    .homepage-slides .owl-nav {
+        margin-top: 5px;
+        text-align: center;
+    }
+    .homepage-slides .owl-nav div.owl-next,
+    .homepage-slides .owl-nav div {
+        left: auto;
+        margin: 10px;
+        right: auto;
+    }
+    .single-service-item {
+        margin-bottom: 50px;
+    }
+    .factory-content-block {
+        padding: 50px 0;
+    }
+    .single-testimonial-item {
+        margin-bottom: 50px;
+    }
+    .slicknav_menu .current_page_item>a {
+        background-color: #f7be49;
+    }
+    .factory-content-block .text-right {
+        text-align: left;
+    }
+    .spacer-85 {
+        height: 25px;
+    }
+    .single-team-item {
+        float: none;
+        height: 255px;
+        margin-bottom: 15px;
+        width: auto;
+    }
+    .gallery-lightbox img {
+        width: 100%;
+    }
+    .comment-metadata {
+        margin-top: 20px;
+    }
+    .mainmenu li:hover>a,
+    .current_page_item {
+        background-color: rgba(244, 244, 244, 0.5);
+        text-decoration: none;
+    }
+    .factorian-content-block {
+        padding: 50px 0;
+    }
+}
